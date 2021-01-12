@@ -5,7 +5,6 @@ const cors = require("cors");
 const app = express();
 
 const upload_folder = "tmp";
-app.use(express.static("public"));
 
 app.use(cors());
 app.use(bodyParser.json());
