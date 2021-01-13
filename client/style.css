@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 2em 1em;
+  line-height: 1.5em;
+  background-color: pink;
+}
+img {
+  width: 300px;
+  box-shadow: 0px 0px 10px ivory;
+  margin: 20px;
+  z-index: 10;
+  background-color: white;
+}
+#canvas {
+  background-color: white;
+  box-shadow: 0px 0px 10px ivory;
+}
+.canvascontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border: none;
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+  box-shadow: none;
+  color: white;
+  background-color: palevioletred;
+}
+button:hover {
+  color: purple;
+}

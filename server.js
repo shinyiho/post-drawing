@@ -6,9 +6,11 @@ const cors = require("cors");
 const app = express();
 
 const upload_folder = "tmp";
+const client_folder = "client";
 
 app.use(cors());
 app.use(bodyParser.json());
+app.use("/", express.static(client_folder));
 app.use("/uploaded", express.static(upload_folder));
 app.use("/assets", express.static("assets"));
 // // get list of posts
